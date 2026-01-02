@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <algorithm>
 #define NOMINMAX
 #include <windows.h>
@@ -7,39 +7,39 @@ using namespace std;
 int main() {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    // Оголошення змінних різних типів
+    // РћРіРѕР»РѕС€РµРЅРЅСЏ Р·РјС–РЅРЅРёС… СЂС–Р·РЅРёС… С‚РёРїС–РІ
     int age, a, b, c;
     double price;
     char letter;
     string name;
 
-    // Присвоєння значень змінним
+    // РџСЂРёСЃРІРѕС”РЅРЅСЏ Р·РЅР°С‡РµРЅСЊ Р·РјС–РЅРЅРёРј
     age = 17;
     a = 4;
     b = 22;
     c = 35;
     price = 76.99;
     letter = 'A';
-    name = "Сюзанна";
+    name = "РЎСЋР·Р°РЅРЅР°";
 
-    // Виведення значень змінних на екран
-    cout << "Значення змінної age: " << age << endl;
-    cout << "Значення змінної price: " << price << endl;
-    cout << "Значення змінної letter: " << letter << endl;
-    cout << "Значення змінної name: " << name << endl;
+    // Р’РёРІРµРґРµРЅРЅСЏ Р·РЅР°С‡РµРЅСЊ Р·РјС–РЅРЅРёС… РЅР° РµРєСЂР°РЅ
+    cout << "Р—РЅР°С‡РµРЅРЅСЏ Р·РјС–РЅРЅРѕС— age: " << age << endl;
+    cout << "Р—РЅР°С‡РµРЅРЅСЏ Р·РјС–РЅРЅРѕС— price: " << price << endl;
+    cout << "Р—РЅР°С‡РµРЅРЅСЏ Р·РјС–РЅРЅРѕС— letter: " << letter << endl;
+    cout << "Р—РЅР°С‡РµРЅРЅСЏ Р·РјС–РЅРЅРѕС— name: " << name << endl;
 
-    // Обчислення суми, середнього, мінімуму та максимуму
+    // РћР±С‡РёСЃР»РµРЅРЅСЏ СЃСѓРјРё, СЃРµСЂРµРґРЅСЊРѕРіРѕ, РјС–РЅС–РјСѓРјСѓ С‚Р° РјР°РєСЃРёРјСѓРјСѓ
     int sum = age + a + b + c;
     double average = sum / 4.0;
     int minimum = min({ age, a, b, c });
     int maximum = max({ age, a, b, c });
 
-    // Виведення результатів обчислень
-    cout << "Значення змінних: " << age << ", " << a << ", " << b << ", " << c << endl;
-    cout << "Сума: " << sum << endl;
-    cout << "Середнє: " << average << endl;
-    cout << "Мінімум: " << minimum << endl;
-    cout << "Максимум: " << maximum << endl;
+    // Р’РёРІРµРґРµРЅРЅСЏ СЂРµР·СѓР»СЊС‚Р°С‚С–РІ РѕР±С‡РёСЃР»РµРЅСЊ
+    cout << "Р—РЅР°С‡РµРЅРЅСЏ Р·РјС–РЅРЅРёС…: " << age << ", " << a << ", " << b << ", " << c << endl;
+    cout << "РЎСѓРјР°: " << sum << endl;
+    cout << "РЎРµСЂРµРґРЅС”: " << average << endl;
+    cout << "РњС–РЅС–РјСѓРј: " << minimum << endl;
+    cout << "РњР°РєСЃРёРјСѓРј: " << maximum << endl;
 
     return 0;
 }
