@@ -6,7 +6,7 @@ using namespace std;
 int main() {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-    string text = "Hello, my name is Petro";
+    string text = "Hello, my name is Petro 123";
     cout << "Початковий рядок: " << text << endl;
 
     // find() повертає позицію першого входження підрядка або string::npos, якщо не знайдено
@@ -36,7 +36,7 @@ int main() {
     }
 
     // compare(позиція початку, довжина, підрядок) == 0 - збігається
-    string end = "Petro";
+    string end = "123";
     if (text.size() >= end.size() &&
         text.compare(text.size() - end.size(), end.size(), end) == 0) {
         cout << "Рядок закінчується на \"" << end << "\"" << endl;
@@ -48,6 +48,14 @@ int main() {
     // erase(позиція, кількість_символів)
     text.erase(0, 6);
     cout << "Після видалення частини рядка: " << text << endl;
+
+    for (char& c : text) {
+        if (isdigit(c)) { 
+			// якщо символ — цифра то замінюємо її на '#'
+            c = '#'; 
+        } 
+    }
+	cout << "Після заміни цифр на #: " << text << endl;
 
     return 0;
 }
