@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Laboratorna18", "Laboratorn
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Laboratorna19", "Laboratorna19\Laboratorna19.vcxproj", "{BE69B495-55A9-49DB-B13E-8BFB1B7EE463}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Laboratorna20", "Laboratorna20\Laboratorna20.vcxproj", "{2189BAEC-74A3-4C20-B628-EC5E8AFBF9A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{BE69B495-55A9-49DB-B13E-8BFB1B7EE463}.Release|x64.Build.0 = Release|x64
 		{BE69B495-55A9-49DB-B13E-8BFB1B7EE463}.Release|x86.ActiveCfg = Release|Win32
 		{BE69B495-55A9-49DB-B13E-8BFB1B7EE463}.Release|x86.Build.0 = Release|Win32
+		{2189BAEC-74A3-4C20-B628-EC5E8AFBF9A2}.Debug|x64.ActiveCfg = Debug|x64
+		{2189BAEC-74A3-4C20-B628-EC5E8AFBF9A2}.Debug|x64.Build.0 = Debug|x64
+		{2189BAEC-74A3-4C20-B628-EC5E8AFBF9A2}.Debug|x86.ActiveCfg = Debug|Win32
+		{2189BAEC-74A3-4C20-B628-EC5E8AFBF9A2}.Debug|x86.Build.0 = Debug|Win32
+		{2189BAEC-74A3-4C20-B628-EC5E8AFBF9A2}.Release|x64.ActiveCfg = Release|x64
+		{2189BAEC-74A3-4C20-B628-EC5E8AFBF9A2}.Release|x64.Build.0 = Release|x64
+		{2189BAEC-74A3-4C20-B628-EC5E8AFBF9A2}.Release|x86.ActiveCfg = Release|Win32
+		{2189BAEC-74A3-4C20-B628-EC5E8AFBF9A2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
